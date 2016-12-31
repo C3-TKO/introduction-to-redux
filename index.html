@@ -20,28 +20,92 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<h2>Welcome</h2>
+					<h2>Handling Application State in react Apps</h2>
+					<h3>An introduction to redux</h3>
+					<p>&nbsp;</p>
+					<p>Thomas Kolar, Engineer @SilverTours GmbH</p>
+					<ul class="fa-ul">
+						<li style="list-style: none;"><a href="mailto:thomas.kolar@billiger-mietwagen.de"><i class="fa-li fa fa-envelope-o" aria-hidden="true"></i>&nbsp;kolar@billiger-mietwagen.de</a></li>
+						<li style="list-style: none;"><a href="https://github.com/C3-TKO/"><i class="fa-li fa fa-github" aria-hidden="true"></i>&nbsp;C3-TKO</li></a>
+						<li style="list-style: none;"><a href="https://react-natives.slack.com/team/cevapsushi"><i class="fa-li fa fa-slack" aria-hidden="true"></i>&nbsp;cevapsushi</a></li>
+					</ul>
+
 				</section>
 				<section>
-					<h2>About me</h2></section>
-				<section>
-					<h2>Application State</h2>
+					<h2>Overview</h2>
+					<ul>
+						<li class="fragment fade-up">Introduction</li>
+						<li class="fragment fade-up">Problem Statement</li>
+						<li class="fragment fade-up">Redux</li>
+						<li class="fragment fade-up">Conclusion</li>
+					</ul>
 				</section>
 				<section>
-					<h2>Basic Data Flow in React Apps</h2>
+					<section>
+						<h2>Introduction</h2>
+					</section>
+					<section>
+						<h2>Application State</h2>
+					</section>
+					<section>
+						<h2>Data Flow in React Apps</h2>
+					</section>
+					<section>
+						<h2>Parent to children</h2>
+					</section>
+					<section>
+						<h2>Children to parent</h2>
+					</section>
+					<section>
+						<h2>Sibling communication</h2>
+					</section>
+					<section>
+						<h2>Communication anywhere</h2>
+					</section>
+					<section>
+						<h2>Dan Abramov quote</h2>
+					</section>
 				</section>
 				<section>
-					<h2>Redux to the rescue</h2>
+					<section>
+						<h2>Problem statement</h2>
+					</section>
+					<section>
+						<h2>Dan Abramov quote</h2>
+					</section>
+					<section>
+						<h2>Data flow with redux</h2>
+					</section>
 				</section>
 				<section>
-					<h2>Pure vs. Impure Functions</h2>
-					<a href="https://medium.com/@preethikasireddy/programming-mental-models-47ccc65eb334#.l6myfr3dx">https://medium.com/@preethikasireddy/programming-mental-models-47ccc65eb334#.l6myfr3dx</a>
+					<section>
+						<h2>Redux</h2>
+					</section>
+					<section>
+						<h2>Architecture</h2>
+					</section>
+					<section>
+						<h2>Provider</h2>
+					</section>
+					<section>
+						<h2>Actions</h2>
+					</section>
+					<section>
+						<h2>Reducers</h2>
+					</section>
+					<section>
+						<h2>Pure vs. Impure Functions</h2>
+						<a href="https://medium.com/@preethikasireddy/programming-mental-models-47ccc65eb334#.l6myfr3dx">https://medium.com/@preethikasireddy/programming-mental-models-47ccc65eb334#.l6myfr3dx</a>
+					</section>
 				</section>
+
 				<section>
 					<h2>Redux Tradeoffs</h2>
 					<ul>
