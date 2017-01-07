@@ -51,10 +51,45 @@
 					</ul>
 				</section>
                 <section>
-                    <h2>Introduction</h2>
-                </section>
-                <section>
                     <h2>Application State</h2>
+                        <section>
+                            <h3 class="fragment fade-up">Business Data State</h3>
+                            <p class="fragment fade-up">Basically this is all real world data that will be stored or processed</p>
+                            <p class="fragment fade-up">For a rental car price comparison service like billiger-mietwagen.de this would include data on e.g.:
+                            </p>
+                            <ul class="fragment fade-up">
+                                <li>cars</li>
+                                <li>rental car stations</li>
+                                <li>insurances</li>
+                                <li>terms of hire</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h3>Communication State</h3>
+                            <p class="fragment fade-up">Includes everything regarding requests to services, e.g: </p><br />
+                            <ul class="fragment fade-up">
+                                <li>expected data structure</li>
+                                <li>timeouts</li>
+                                <li>success / error messages</li>
+                                <li>loading spinner</li>
+                                <li>percentage of progress on down-/uploads</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h3>Control State</h3>
+                            <p class="fragment fade-up">Refers to changes based on everything which the user has input into our app.</p>
+                            <p class="fragment fade-up">Control state is specific to a given container or component.</p>
+                            <p class="fragment fade-up">E.g. a form which will change its appearance based on the users choice for the payment method</p>
+                        </section>
+                        <section>
+                            <h3>Session State</h3>
+                            <p class="fragment fade-up">Covers all data related to the human being that interacts with our app like:</p>
+                            <ul class="fragment fade-up">
+                                <li>User identifier</li>
+                                <li>Permissions</li>
+                                <li>Preferences</li>
+                            </ul>
+                        </section>
                 </section>
 
 
