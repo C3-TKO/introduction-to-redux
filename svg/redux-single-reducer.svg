@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 711 146" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g transform="matrix(1,0,0,1,-51.1779,-228.944)">
+<svg width="100%" height="100%" viewBox="0 0 716 146" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-46.1379,-228.944)">
         <path d="M269.847,231.194C264.483,232.837 260.776,235.993 258.622,240.693C258.252,241.5 257.686,242.225 257.253,243.047C252.467,252.134 250.548,265.845 251.747,284.587C254.966,314.428 262.85,331.082 276.234,332.191C289.208,332.968 296.44,316.662 298.536,285.073C298.568,247.84 288.278,231.786 269.847,231.194C332.273,231.298 394.966,231.559 459.113,232.67C472.057,239.791 477.715,258.758 479.073,284.713C477.385,304.463 473.933,319.31 467.338,325.423C459.26,330.136 439.846,331.607 416.733,331.832C374.585,333.148 326.745,332.926 276.234,332.191L278.069,332.184C290.143,331.434 296.686,314.934 298.536,285.073C298.653,248.825 288.214,232.52 269.847,231.194" style="fill:rgb(242,242,242);"/>
         <clipPath id="_clip1">
             <path d="M269.847,231.194C264.483,232.837 260.776,235.993 258.622,240.693C258.252,241.5 257.686,242.225 257.253,243.047C252.467,252.134 250.548,265.845 251.747,284.587C254.966,314.428 262.85,331.082 276.234,332.191C289.208,332.968 296.44,316.662 298.536,285.073C298.568,247.84 288.278,231.786 269.847,231.194C332.273,231.298 394.966,231.559 459.113,232.67C472.057,239.791 477.715,258.758 479.073,284.713C477.385,304.463 473.933,319.31 467.338,325.423C459.26,330.136 439.846,331.607 416.733,331.832C374.585,333.148 326.745,332.926 276.234,332.191L278.069,332.184C290.143,331.434 296.686,314.934 298.536,285.073C298.653,248.825 288.214,232.52 269.847,231.194"/>
@@ -15,24 +15,24 @@
                 <path d="M611.327,115.299C668.018,115.299 717.867,129.601 730.16,156.012C744.531,186.889 681.966,213.472 607.526,211.317C550.858,209.677 508.61,197.214 508.61,168.082C508.61,149.16 514.278,135.771 543.424,126.453C559.15,121.425 591.459,115.299 611.327,115.299Z" style="fill:rgb(177,235,235);stroke:black;stroke-width:5.03px;stroke-dasharray:10.06,10.06,0,0;"/>
             </g>
             <g transform="matrix(0.9,0,-1.0842e-19,1,41.6474,8.36633)">
-                <text x="117.297px" y="132.587px" style="font-family:'ChalkboardSE-Bold', 'Chalkboard SE', cursive;font-weight:700;font-size:21.158px;">N<tspan x="130.593px 141.575px 161.886px 169.595px 181.442px 192.424px 204.318px " y="132.587px 132.587px 132.587px 132.587px 132.587px 132.587px 132.587px ">EW STAT</tspan>E</text>
+                <text x="117.297px" y="132.587px" style="font-family:'ChalkboardSE-Bold', 'Chalkboard SE', cursive;font-weight:700;font-size:21.158px;">N<tspan x="131.44px 143.268px 164.425px 172.98px 185.673px 197.502px 210.242px 222.538px " y="132.587px 132.587px 132.587px 132.587px 132.587px 132.587px 132.587px 132.587px ">EW STATE</tspan></text>
             </g>
         </g>
         <g transform="matrix(0.9,9.75782e-20,-3.25261e-19,1,-83.1272,-9.1661)">
-            <text x="792.792px" y="382.034px" style="font-family:'ChalkboardSE-Bold', 'Chalkboard SE', cursive;font-weight:700;font-size:24px;">S<tspan x="806.231px 819.219px 835.972px 850.286px " y="382.034px 382.034px 382.034px 382.034px ">TORE</tspan></text>
+            <text x="792.792px" y="382.034px" style="font-family:'ChalkboardSE-Bold', 'Chalkboard SE', cursive;font-weight:700;font-size:24px;">S<tspan x="807.191px 821.139px 838.852px 854.126px " y="382.034px 382.034px 382.034px 382.034px ">TORE</tspan></text>
         </g>
         <g transform="matrix(0.9,9.75782e-20,-3.25261e-19,1,-374.054,-95.3646)">
-            <text x="792.792px" y="382.034px" style="font-family:'ChalkboardSE-Bold', 'Chalkboard SE', cursive;font-weight:700;font-size:24px;">R<tspan x="807.106px 819.564px 834.169px 849.279px 862.691px 875.148px " y="382.034px 382.034px 382.034px 382.034px 382.034px 382.034px ">EDUCER</tspan></text>
+            <text x="792.792px" y="382.034px" style="font-family:'ChalkboardSE-Bold', 'Chalkboard SE', cursive;font-weight:700;font-size:24px;">R<tspan x="808.066px 821.484px 837.049px 853.119px 867.491px 880.908px " y="382.034px 382.034px 382.034px 382.034px 382.034px 382.034px ">EDUCER</tspan></text>
         </g>
         <g transform="matrix(1,1.0842e-19,-3.25261e-19,1,-753.436,-103.216)">
-            <g transform="matrix(0.9,0,0,1,81.4547,0)">
-                <text x="814.547px" y="382.034px" style="font-family:'ChalkboardSE-Bold', 'Chalkboard SE', cursive;font-weight:700;font-size:24px;">D<tspan x="829.153px 839.118px 852.556px 865.783px " y="382.034px 382.034px 382.034px 382.034px ">ISPA</tspan>TC<tspan x="907.001px " y="382.034px ">H</tspan></text>
+            <g transform="matrix(0.9,0,0,1,81.1523,0)">
+                <text x="811.523px" y="382.034px" style="font-family:'ChalkboardSE-Bold', 'Chalkboard SE', cursive;font-weight:700;font-size:24px;">D<tspan x="827.089px 838.014px 852.412px 866.599px 882.377px 896.324px 910.697px " y="382.034px 382.034px 382.034px 382.034px 382.034px 382.034px 382.034px ">ISPATCH</tspan></text>
             </g>
-            <g transform="matrix(0.9,0,0,1,80.4062,0)">
-                <text x="804.062px" y="406.334px" style="font-family:'ChalkboardSE-Bold', 'Chalkboard SE', cursive;font-weight:700;font-size:20px;">{<tspan x="810.819px 820.117px 830.123px 838.316px 846.509px 856.471px 866.123px 874.714px 882.001px 890.062px 898.653px 908.813px 917.404px " y="406.334px 406.334px 406.334px 406.334px 406.334px 406.334px 406.334px 406.334px 406.334px 406.334px 406.334px 406.334px 406.334px ">current state</tspan>}</text>
+            <g transform="matrix(0.9,0,0,1,79.9022,0)">
+                <text x="799.022px" y="406.334px" style="font-family:'ChalkboardSE-Bold', 'Chalkboard SE', cursive;font-weight:700;font-size:20px;">{<tspan x="806.579px 816.677px 827.483px 836.476px 845.469px 856.231px 866.683px 876.074px 884.161px 893.022px 902.413px 913.373px 922.764px 933.526px " y="406.334px 406.334px 406.334px 406.334px 406.334px 406.334px 406.334px 406.334px 406.334px 406.334px 406.334px 406.334px 406.334px 406.334px ">current state}</tspan></text>
             </g>
-            <g transform="matrix(0.9,0,0,1,83.3411,0)">
-                <text x="833.411px" y="430.634px" style="font-family:'ChalkboardSE-Bold', 'Chalkboard SE', cursive;font-weight:700;font-size:20px;">{<tspan x="840.168px 850.328px 859.627px 868.218px 872.654px 881.842px 891.494px " y="430.634px 430.634px 430.634px 430.634px 430.634px 430.634px 430.634px ">action}</tspan></text>
+            <g transform="matrix(0.9,0,0,1,83.0891,0)">
+                <text x="830.891px" y="430.634px" style="font-family:'ChalkboardSE-Bold', 'Chalkboard SE', cursive;font-weight:700;font-size:20px;">{<tspan x="838.448px 849.408px 859.507px 868.898px 874.134px 884.122px 894.574px " y="430.634px 430.634px 430.634px 430.634px 430.634px 430.634px 430.634px ">action}</tspan></text>
             </g>
         </g>
         <g>

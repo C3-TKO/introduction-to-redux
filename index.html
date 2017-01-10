@@ -29,8 +29,8 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<h2>Handling Application State in react Apps</h2>
-					<h3>An introduction to redux</h3>
+					<h1>Handling Application State in react Apps</h1>
+					<h2>An introduction to redux</h2>
 					<p>&nbsp;</p>
 					<p>Thomas Kolar, Engineer @SilverTours GmbH</p>
 					<ul class="fa-ul">
@@ -41,7 +41,7 @@
 
 				</section>
 				<section>
-					<h2>Overview</h2>
+					<h1>Overview</h1>
 					<ul>
 						<li class="fragment fade-up">Introduction</li>
 						<li class="fragment fade-up">Problem Statement</li>
@@ -51,9 +51,9 @@
 					</ul>
 				</section>
                 <section>
-                    <h2>Application State</h2>
+                    <h1>Application State</h1>
                         <section>
-                            <h3 class="fragment fade-up">Business Data State</h3>
+                            <h2 class="fragment fade-up">Business Data State</h2>
                             <p class="fragment fade-up">Basically this is all real world data that will be stored or processed</p>
                             <p class="fragment fade-up">For a rental car price comparison service like billiger-mietwagen.de this would include data on e.g.:
                             </p>
@@ -65,7 +65,7 @@
                             </ul>
                         </section>
                         <section>
-                            <h3>Communication State</h3>
+                            <h2>Communication State</h2>
                             <p class="fragment fade-up">Includes everything regarding requests to services, e.g: </p><br />
                             <ul class="fragment fade-up">
                                 <li>expected data structure</li>
@@ -76,13 +76,13 @@
                             </ul>
                         </section>
                         <section>
-                            <h3>Control State</h3>
+                            <h2>Control State</h2>
                             <p class="fragment fade-up">Refers to changes based on everything which the user has input into our app.</p>
                             <p class="fragment fade-up">Control state is specific to a given container or component.</p>
                             <p class="fragment fade-up">E.g. a form which will change its appearance based on the users choice for the payment method</p>
                         </section>
                         <section>
-                            <h3>Session State</h3>
+                            <h2>Session State</h2>
                             <p class="fragment fade-up">Covers all data related to the human being that interacts with our app like:</p>
                             <ul class="fragment fade-up">
                                 <li>User identifier</li>
@@ -96,23 +96,23 @@
 
                 <section>
                     <section data-transition="none">
-                        <h2>Data Flow in React Apps</h2>
+                        <h1>Data Flow in React Apps</h1>
                     </section>
                     <section data-transition="none">
-                        <h2>Parent to children</h2>
+                        <h1>Parent to children</h1>
                         <img class="plain" height="20%" width="20%" src="svg/parent-2-child.svg" />
                         <div class="fragment fade-up">
-                            <h3>Props</h3>
+                            <h2>Props</h2>
                             <!-- CODEPEN.IO SNIPPET -->
                             <p data-height="265" data-theme-id="dark" data-slug-hash="RKWqBG" data-default-tab="js,result" data-user="C3-TKO" data-embed-version="2" data-pen-title="Parent to Child via props" class="codepen">See the Pen <a href="http://codepen.io/C3-TKO/pen/RKWqBG/">Parent to Child via props</a> by Thomas Kolar (<a href="http://codepen.io/C3-TKO">@C3-TKO</a>) on <a href="http://codepen.io">CodePen</a>.</p>
                             <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
                         </div>
                     </section>
                     <section data-transition="none">
-                        <h2>Parent to children</h2>
+                        <h1>Parent to children</h1>
                         <img class="plain" height="20%" width="20%" src="svg/parent-2-child.svg" />
                         <div class="fragment fade-up">
-                            <h3>Ref functions</h3>
+                            <h2>Ref functions</h2>
                             <!-- CODEPEN.IO SNIPPET -->
                             <p data-height="380" data-theme-id="dark" data-slug-hash="ZLYjdY" data-default-tab="js" data-user="C3-TKO" data-embed-version="2" data-pen-title="Parent To Child Communication Through Ref Function in React" class="codepen">See the Pen <a href="http://codepen.io/C3-TKO/pen/ZLYjdY/">Parent To Child Communication Through Ref Function in React</a> by Thomas Kolar (<a href="http://codepen.io/C3-TKO">@C3-TKO</a>) on <a href="http://codepen.io">CodePen</a>.</p>
                         </div>
@@ -121,10 +121,10 @@
 
 
                     <section data-transition="none">
-                        <h2>Children to parent</h2>
+                        <h1>Children to parent</h1>
                         <img class="plain" height="20%" width="20%" src="svg/child-2-parent.svg" />
                         <div class="fragment fade-up">
-                            <h3>Callback functions</h3>
+                            <h2>Callback functions</h2>
                             <!-- CODEPEN.IO SNIPPET -->
                             <p data-height="380" data-theme-id="dark" data-slug-hash="ZLYjdY" data-default-tab="js" data-user="C3-TKO" data-embed-version="2" data-pen-title="Parent To Child Communication Through Ref Function in React" class="codepen">See the Pen <a href="http://codepen.io/C3-TKO/pen/ZLYjdY/">Parent To Child Communication Through Ref Function in React</a> by Thomas Kolar (<a href="http://codepen.io/C3-TKO">@C3-TKO</a>) on <a href="http://codepen.io">CodePen</a>.</p>
                         </div>
@@ -133,10 +133,10 @@
 
 
                     <section data-transition="none">
-                        <h2>Children to parent</h2>
+                        <h1>Children to parent</h1>
                         <img class="plain" height="20%" width="20%" src="svg/child-2-parent.svg" />
                         <div class="fragment fade-up">
-                            <h3>Event bubbling</h3>
+                            <h2>Event bubbling</h2>
                             <!-- CODEPEN.IO SNIPPET -->
                             <p data-height="380" data-theme-id="dark" data-slug-hash="ZLYjdY" data-default-tab="js" data-user="C3-TKO" data-embed-version="2" data-pen-title="Parent To Child Communication Through Ref Function in React" class="codepen">See the Pen <a href="http://codepen.io/C3-TKO/pen/ZLYjdY/">Parent To Child Communication Through Ref Function in React</a> by Thomas Kolar (<a href="http://codepen.io/C3-TKO">@C3-TKO</a>) on <a href="http://codepen.io">CodePen</a>.</p>
                         </div>
@@ -145,33 +145,34 @@
 
 
                     <section data-transition="none">
-                        <h2>Sibling communication</h2>
+                        <h1>Sibling communication</h1>
                         <img class="plain" height="20%" width="20%" src="svg/sibling.svg" />
                         <div class="fragment fade-up">
-                            <h3>Communication via parent component</h3>
+                            <h2>Communication via parent component</h2>
                             <!-- CODEPEN.IO SNIPPET -->
                             <p data-height="380" data-theme-id="dark" data-slug-hash="ZLYjdY" data-default-tab="js" data-user="C3-TKO" data-embed-version="2" data-pen-title="Parent To Child Communication Through Ref Function in React" class="codepen">See the Pen <a href="http://codepen.io/C3-TKO/pen/ZLYjdY/">Parent To Child Communication Through Ref Function in React</a> by Thomas Kolar (<a href="http://codepen.io/C3-TKO">@C3-TKO</a>) on <a href="http://codepen.io">CodePen</a>.</p>
                         </div>
                     </section>
                     <section data-transition="none">
-                        <h2>Any-to-any component communication</h2>
-                        <img class="plain" height="50%" width="50%" src="svg/any-2-any.svg" />
-                        <h3 class="fragment fade-up">Global variables</h3>
+                        <h1>Any-to-any component communication</h1>
+                        <img class="plain" height="40%" width="40%" src="svg/any-2-any.svg" />
+                        <h2 class="fragment fade-up">Global variables</h2>
+                    </section>
+                    <section data-background-image="img/global_variables.jpg">
+                        &nbsp;
+                        <!--<img class="stretch" src="img/global_variables.jpg" />-->
                     </section>
                     <section>
-                        <img class="stretch" src="img/global_variables.jpg" />
-                    </section>
-                    <section>
-                        <h2>Any-to-any component communication</h2>
-                        <img class="plain" height="50%" width="50%" src="svg/any-2-any.svg" />
-                        <h3>
+                        <h1>Any-to-any component communication</h1>
+                        <img class="plain" height="40%" width="40%" src="svg/any-2-any.svg" />
+                        <h2>
                             <span style="text-decoration: line-through; color: red;">
                                 <span style="color: #586e75">Global variables</span>
                             </span>
                             <span style="color: #586e75">&nbsp;THX BOROMIR!</span>
-                        </h3>
-                        <h3 class="fragment fade-up">Context</h3>
-                        <h3 class="fragment fade-up">Observer pattern</h3>
+                        </h2>
+                        <h2 class="fragment fade-up">Context</h2>
+                        <h2 class="fragment fade-up">Observer pattern</h2>
                     </section>
                     <section data-transition="none">
                         <a href="https://twitter.com/dan_abramov/status/699241546248536064"><i class="fa fa-twitter"></i>&nbsp;@dan_abramov</a>
@@ -181,53 +182,53 @@
                     </section>
                 </section>
 				<section>
-                    <h2>Problem statement</h2>
+                    <h1>Problem statement</h1>
                     <section data-transition="none">
-                        <img class="plain" height="60%" width="60%" src="svg/tree.svg" />
+                        <img class="plain" height="50%" width="50%" src="svg/tree.svg" />
                     </section>
                     <section data-transition="none">
-                        <img class="plain" height="60%" width="60%" src="svg/chaos-step-0.svg" />
+                        <img class="plain" height="50%" width="50%" src="svg/chaos-step-0.svg" />
                     </section>
                     <section data-transition="none">
-                        <img class="plain" height="60%" width="60%" src="svg/any-2-any.svg" />
+                        <img class="plain" height="50%" width="50%" src="svg/any-2-any.svg" />
 					</section>
                     <section data-transition="none">
-                        <img class="plain" height="60%" width="60%" src="svg/chaos-step-1.svg" />
+                        <img class="plain" height="50%" width="50%" src="svg/chaos-step-1.svg" />
                     </section>
                     <section data-transition="none">
-                        <img class="plain" height="60%" width="60%" src="svg/chaos-step-2.svg" />
+                        <img class="plain" height="50%" width="50%" src="svg/chaos-step-2.svg" />
                     </section>
                     <section data-transition="none">
-                        <img class="plain" height="60%" width="60%" src="svg/chaos-step-3.svg" />
+                        <img class="plain" height="50%" width="50%" src="svg/chaos-step-3.svg" />
                     </section>
                     <section data-transition="none">
-                        <img class="plain" height="60%" width="60%" src="svg/chaos-step-4.svg" />
+                        <img class="plain" height="50%" width="50%" src="svg/chaos-step-4.svg" />
                     </section>
                     <section data-transition="none">
-                        <img class="plain" height="60%" width="60%" src="svg/chaos-step-5.svg" />
+                        <img class="plain" height="50%" width="50%" src="svg/chaos-step-5.svg" />
                         <div class="fragment fade-in" style="position: absolute; bottom: 0px; margin-left: auto; margin-right: auto; left: 0; right: 0;">
                             <img class="plain" height="20%" width="20%" src="svg/rage_face_crying.svg" />
                         </div>
                     </section>
 				</section>
                 <section>
-                    <h2>Redux</h2>
+                    <h1>Redux</h1>
 					<section>
-						<h3>What is redux?</h3>
+						<h2>What is redux?</h2>
                         <p class="fragment fade-in">Redux is a predictable state container for JavaScript apps. It follows <a href="http://redux.js.org/docs/introduction/ThreePrinciples.html">three basic principles</a>:</p>
 					</section>
 					<section>
-						<h3>#1 Single source of truth</h3>
+						<h2>#1 Single source of truth</h2>
                         <p class="fragment fade-in">The state of your whole application is stored in an object tree within a single store.</p>
 					</section>
 					<section>
-						<h3>#2 State is read-only</h3>
+						<h2>#2 State is read-only</h2>
                         <p class="fragment fade-in">The only way to change the state is to emit an action, an object describing what happened.</p>
 					</section>
 					<section>
-						<h3>#3 Changes are made with pure functions</h3>
+						<h2>#3 Changes are made with pure functions</h2>
                         <p class="fragment fade-in">To specify how the state tree is transformed by actions, you write pure reducers.</p>
-                        <h2>Pure vs. Impure Functions</h2>
+                        <h1>Pure vs. Impure Functions</h1>
                         <a href="https://medium.com/@preethikasireddy/programming-mental-models-47ccc65eb334#.l6myfr3dx">https://medium.com/@preethikasireddy/programming-mental-models-47ccc65eb334#.l6myfr3dx</a>
 					</section>
 					<section>
@@ -238,28 +239,28 @@
                     </section>
 				</section>
                 <section>
-                    <h2>Redux to the rescue!</h2>
+                    <h1>Redux to the rescue!</h1>
                     <section data-transition="none">
-                        <img class="plain" height="70%" width="70%" src="svg/redux-tree.svg" />
+                        <img class="plain" height="50%" width="50%" src="svg/redux-tree.svg" />
                     </section>
                     <section data-transition="none">
-                        <img class="plain" height="70%" width="70%" src="svg/redux-tree-1.svg" />
+                        <img class="plain" height="50%" width="50%" src="svg/redux-tree-1.svg" />
                     </section>
                     <section data-transition="none">
-                        <img class="plain" height="70%" width="70%" src="svg/redux-tree-2.svg" />
+                        <img class="plain" height="50%" width="50%" src="svg/redux-tree-2.svg" />
                     </section>
                     <section data-transition="none">
-                        <img class="plain" height="70%" width="70%" src="svg/redux-tree-3.svg" />
+                        <img class="plain" height="50%" width="50%" src="svg/redux-tree-3.svg" />
                         <div class="fragment fade-in" style="position: absolute; bottom: 0px; margin-left: auto; margin-right: auto; left: 0; right: 0;">
                             <img class="plain" height="20%" width="20%" src="svg/rage_face_smile.svg" />
                         </div>
                     </section>
                 </section>
                 <section>
-                    <h2>Live Demo</h2>
+                    <h1>Live Demo</h1>
                 </section>
                 <section>
-                    <h2>Attribution</h2>
+                    <h1>Attribution</h1>
                     <ul>
                         <li><a href="http://jamesknelson.com/5-types-react-application-state/">James K. Nelson - The 5 Types Of React Application State</a></li>
                         <li><a href="http://andrewhfarmer.com/component-communication/">Andrew H. Farmer - 8 no-Flux strategies for React component communication</a></li>
@@ -267,6 +268,15 @@
                         <li><a href="https://medium.com/@preethikasireddy/programming-mental-models-47ccc65eb334#.dqfm9vxih">Preethi Kasireddy - Programming (mental) models</a></li>
                         <li><a href="http://all-silhouettes.com/vector-meme-faces/">all-silhouettes.com - Meme Faces</a></li>
                     </ul>
+                </section>
+
+                <section>
+                    <img class="stretch" src="img/redux-wyltkm.jpg" />
+                </section>
+
+                <section>
+                    <h1>This video will use up the remaining space on the slide</h1>
+                    <video class="stretch" src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video>
                 </section>
 			</div>
 		</div>
