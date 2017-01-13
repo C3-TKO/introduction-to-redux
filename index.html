@@ -47,7 +47,6 @@
 						<li class="fragment fade-up">Problem Statement</li>
 						<li class="fragment fade-up">Redux</li>
                         <li class="fragment fade-up">Live Coding Session</li>
-						<li class="fragment fade-up">Conclusion & Discussion</li>
 					</ul>
 				</section>
                 <section>
@@ -90,6 +89,10 @@
                                 <li>Preferences</li>
                             </ul>
                             <p class="fragment fade-up">Keep in mind: Session state is most likely read-only in your app as it is usually server side controlled</p>
+                        </section>
+                        <section>
+                            <h2>Location State</h2>
+                            <p class="fragment fade-up">Location state is the information stored in the URL and the HTML5 History state object</p>
                         </section>
                 </section>
 
@@ -230,9 +233,9 @@ store.dispatch({
                             <div class="fragment fade-right" style="width: 50%; float: left; margin-left: auto; margin-right: auto;">
                                 <h3>Impure</h3>
                                 <pre><code data-trim class="javascript">
-const Pi = 3.14159;
+const PI = 3.14159;
 
-const calculateArea = (radius) {
+const calculateAreasFromRadius = (radii) {
     for(let i = 0; i < radii.length; i++) {
         radii[i] = radii[i] * radiii[i] * PI
     }
@@ -241,7 +244,7 @@ const calculateArea = (radius) {
 };
                                 </code></pre>
                                 <ul>
-                                    <li>This function only relies on global variables</li>
+                                    <li>This function relies on global variables</li>
                                     <li>It does mutate passed arguments</li>
                                 </ul>
                             </div>
@@ -249,7 +252,7 @@ const calculateArea = (radius) {
                             <div class="fragment fade-left" style="width: 50%; float: left; margin-left: auto; margin-right: auto;">
                                 <h3>Pure</h3>
                                 <pre><code data-trim class="javascript">
-const calculateAreasFromRadii = (radii, PI) {
+const calculateAreasFromRadius = (radii, PI) {
     let areas = [];
     for(let i = 0; i < radii.length; i++) {
         areas[i] = radii[i] * radii[i] * PI
@@ -296,6 +299,7 @@ function todos(state = [], action) {
                     <section>
                         <img class="plain" height="100%" width="100%" src="svg/redux-combined-reducers.svg" />
                     </section>
+
                     <section>
                         <img class="plain" height="60%" width="60%" src="img/redux-animation.gif" />
                     </section>
@@ -336,8 +340,11 @@ function todos(state = [], action) {
                 </section>
 
                 <section data-background-image="img/redux-wyltkm.jpg">
-                    &nbsp;
-                    <!--<img class="stretch" src="img/global_variables.jpg" />-->
+                    <a href="https://c3-tko.github.io/redux-would-you-like-to-know-more/#/">
+                        <div style="width: 100vw; height: 100vh;">
+                            &nbsp;
+                        </div>
+                    </a>
                 </section>
 			</div>
 		</div>
